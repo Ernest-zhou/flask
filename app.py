@@ -25,6 +25,6 @@ def Function():
 a = threading.Thread(target = start_web, name = "Thread_one")
 for i in range(10):
    threading.Thread(target = Function, name = "Thread_two").start()
-   l,append(Count)
+   l.append(Count)
 raw_input("Enter any key to continue.")
 
